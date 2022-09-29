@@ -1,0 +1,44 @@
+[
+    {
+        "id": "123a",
+        "name": "Prayer",
+        "image": "https://t4.ftcdn.net/jpg/02/07/69/79/360_F_207697909_ySZGDWmBOMROgFh4ppOmLLtIB057D0A2.jpg",
+        "practiceTime": "60 minute",
+        "Description": "My day starts with morning prayer and it is so important because i  meet Allah before i meet the Devil."
+    },
+    {
+        "id": "123b",
+        "name": "Reading Quran",
+        "image": "https://static1.bigstockphoto.com/4/5/2/large1500/254986666.jpg",
+        "practiceTime": "30 minute",
+        "Description": "I belive a successful day starts with Fajr, Quran and Coffee!"
+    },
+    {
+        "id": "123c",
+        "name": "Exercise",
+        "image": "https://de927adv5b23k.cloudfront.net/wp-content/uploads/2018/01/03185609/shutterstock_748405849.jpg",
+        "practiceTime": "30 minute",
+        "Description": "Exercise is very important to stay fit and healthy."
+    },
+    {
+        "id": "123d",
+        "name": "Study",
+        "image": "https://img.freepik.com/free-photo/beautiful-girl-study-library_1157-22217.jpg?w=2000",
+        "practiceTime": "120 minute",
+        "Description": "I am a student so i have to study regularly and i love reading books. "
+    },
+    {
+        "id": "123e",
+        "name": "cooking",
+        "image": "https://img.freepik.com/free-photo/woman-chef-cooking-vegetables-pan_1303-22287.jpg?w=2000",
+        "practiceTime": "45 minute",
+        "Description": "I love and enjoy my cooking time a lot"
+    },
+    {
+        "id": "123f",
+        "name": "Gardening",
+        "image": "https://previews.123rf.com/images/zoomteam/zoomteam1305/zoomteam130500189/19632245-young-blond-girl-with-gardening-tools.jpg",
+        "practiceTime": "30 minute",
+        "Description": "Gardening is my hobby and i enjoy this a lot"
+    }
+]
