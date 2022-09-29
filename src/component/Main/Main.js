@@ -48,7 +48,7 @@ const Main = () => {
                        }
                    </div>
                 </div>
-                <div className='Right-side col-lg-4 col-md-4 col-sm-12'>
+                <div className='Right-side col-lg-4 col-md-4 col-sm-12 border border-dark'>
                    <Showinfo></Showinfo>
                 </div>
             </div>
