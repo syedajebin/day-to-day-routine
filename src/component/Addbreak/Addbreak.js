@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Activitydetails from '../../Activity/Activitydetails';
+import { addToDb } from '../../utilities/database';
 import './Addbreak.css'
 
 const Addbreak = (props) => {
@@ -7,8 +8,18 @@ const Addbreak = (props) => {
     const [BreakTimes, setBreakTimes] = useState(0)
     const takesTime = (e) => {
         const getTimes = e.target.innerText;
-        setBreakTimes(getTimes.slice(0,2))
+        setBreakTimes(getTimes.slice(0, 2))
+        addToDb(BreakTimes)
     }
+    
+    useEffect(() => {
+
+        let getTheData = localStorage.getItem('Time');
+        getTheData = JSON.parse(getTheData);
+       
+        setBreakTimes(getTheData);
+    }, [])
+
     console.log(BreakTimes)
     return (
         <div className='col'>
