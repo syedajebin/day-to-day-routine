@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Allactivity from '../Allactivity/Allactivity';
 import Showinfo from '../Showinfo/Showinfo';
+import './Main.css'
 
 const Main = () => {
    
@@ -38,6 +39,12 @@ const Main = () => {
    
     return (
         <div className='container-fluid'>
+            <div className='row py-4'>
+                <h1 className='fw-bold'>
+                    <span className='title-clock'><i class="fa-solid fa-user-clock"></i></span>
+                    DAILY ROUTINE</h1>
+                <h3 className='my-2'>Select Your Activities</h3>
+            </div>
             <div className='row'>
                 <div className='left side col-lg-8 col-md-8 col-sm-12'>
                     <div className='row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-1 g-3'> 
