@@ -3,7 +3,10 @@ import logo from '../../Images/propic.jpg'
 import Addbreak from '../Addbreak/Addbreak';
 import './Showinfo.css'
 
-const Showinfo = (e) => {
+const Showinfo = (props) => {
+    // const {time}=props.cardTime
+    console.log("Showinfo recive Card time :", props.cardTime)
+  
    
    
     return (
@@ -16,9 +19,8 @@ const Showinfo = (e) => {
                         <h6>Mern Devloper</h6>
                     </div>
                 </div>
-                <Addbreak
-                    
-                ></Addbreak>
+                <Addbreak cardTime={props.cardTime}
+                 ></Addbreak>
             </div>
         </div>
     );
