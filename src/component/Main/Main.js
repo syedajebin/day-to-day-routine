@@ -3,6 +3,8 @@ import Allactivity from '../Allactivity/Allactivity';
 import Showinfo from '../Showinfo/Showinfo';
 import './Main.css'
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const Main = () => {
    
     const [maindata, setMaindata] = useState([]);
@@ -35,6 +37,13 @@ const Main = () => {
         setCardTime(timeArray)
        
     }
+
+    const showToast = () => {
+        toast("CONGRATULATION ACTIVITY COMPLETED!");
+    }
+
+
+
     // console.log("Card Time from mainjs",cardTime);
    
     return (
@@ -65,7 +74,8 @@ const Main = () => {
                     <Showinfo cardTime={cardTime}>
                        
                     </Showinfo>
-                    <button className='btn btn-primary w-100 mt-3'>Activity Complete</button>
+                    <button className='btn btn-primary w-100 mt-3' onClick={showToast}>Activity Complete</button>
+                    <ToastContainer />
                 </div>
             </div>
 
